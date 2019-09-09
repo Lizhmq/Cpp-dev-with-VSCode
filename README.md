@@ -34,9 +34,9 @@ In this repo, you will learn how to install **MinGW** on Windows.
 
 ![MinGW Environmental Path](figure/mingw_path.png)
 
-5. Open command line console, and input ''gcc -v'' command.
+4. Open command line console, and input ''gcc -v'' command.
 
-    打开命令行窗口，输入“gcc -v”命令。
+打开命令行窗口，输入“gcc -v”命令。
 
 ![MinGW Test](figure/mingw_test.png)
 
@@ -44,7 +44,7 @@ In this repo, you will learn how to install **MinGW** on Windows.
 
 Download Visual Studio Code(VS Code) from the [official website](https://code.visualstudio.com/).
 
-Choose version according to youroperating system.(Stable and Insiders are both Okay.)
+Choose version according to your operating system.(Stable and Insiders are both Okay.)
 
 ![](figure/vscode-download.png)
 
