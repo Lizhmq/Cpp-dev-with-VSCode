@@ -1,18 +1,20 @@
 # Build C/C++ Environment with VS Code
 
-In this repo, you will learn how to install a complete development environment, and run the ''HelloWorld'' demo.
+在这个教程中，你将学会用Visual Studio Code搭建C/C++开发环境。
 
-通过阅读本菜鸟包的内容，你将学会如何安装一套完整的开发环境，并在该环境上尝试运行一个简单的“HelloWorld”程序。
+Visual Studio是微软开发的一款强大的编辑器，注意是编辑器而不是IDE（集成开发环境），所以他的基本功能跟记事本差不多--就是编辑代码，而无法编译和运行。但是VS Code强大的地方在于它支持很多插件，而且非常轻便。
 
-## Compiler | 编译器
+## 运行C/C++代码
 
-Compilers are tools to compile executable programs from source code files. It ''translates'' advanced programming language source code files (eg. C/C++) to binary executable programs.
+运行C/C++代码可以简化为两个步骤：
 
-编译器是用来将源代码文件编译成可执行文件的工具，它将高级语言（例如C/C++）的源代码“翻译”成机器上的二进制可执行代码。
+1. 编译
 
-In this repo, you will learn how to install **MinGW** on Windows.
+    C/C++代码是方便人阅读和编写的高级语言，而计算机只能
 
-在本次菜鸟包中，你将学习如何在Windows系统上安装**MinGW**编译环境。
+## Compiler
+
+
 
 ### MinGW Installation | MinGW安装
 
