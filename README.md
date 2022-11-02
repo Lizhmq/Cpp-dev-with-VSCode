@@ -152,7 +152,40 @@ gdb test.out
 
 问题是我们还没有编译，所以我们加上"preLaunchTask"，意思是在Launch之前，先执行这个task. 把这个task命名为"compile"（当然，可以是任何你喜欢的）
 
-![](figure/vscode-launch1.png)
+```
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "gdb Launch",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${file}.out",
+			"args": [],
+			"cwd": "${workspaceFolder}",
+			"environment": [],
+			"externalConsole": false,
+			"preLaunchTask": "g++ compile",
+			"stopAtEntry": false,
+		}
+	],
+	"setupCommands": [
+		{
+		"description": "Enable pretty-printing for gdb",
+		"text": "-enable-pretty-printing",
+		"ignoreFailures": true
+		},
+		{
+		"description": "Set Disassembly Flavor to Intel",
+		"text": "-gdb-set disassembly-flavor intel",
+		"ignoreFailures": true
+		}
+	],
+}
+```
 
 Modify "enter program name, for example \${workspaceFolder}/a.exe" to "​\${file}.out".
 
